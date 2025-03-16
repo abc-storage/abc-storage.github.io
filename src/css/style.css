@@ -24,12 +24,12 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    max-width: 90%;
+    width: 90%;
 }
 
 .game-frame {
-    width: 100%;  /* 画面幅いっぱいにする */
-    max-width: 1080px; /* 最大幅を1080pxに制限 */
+    width: 80%;  /* 画面幅いっぱいにする */
+    /*max-width: 1080px; /* 最大幅を1080pxに制限 */
     aspect-ratio: 1 / 1; /* 正方形を維持 */
     overflow: hidden; /* はみ出し防止 */
     display: flex;
