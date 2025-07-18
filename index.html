@@ -2,17 +2,12 @@
 <meta charset="utf-8">
     <script>
         window.onload = function() {
-            const confirmed = confirm("このページは新しいサイトへ移動します。\nよろしいですか？");
+            const confirmed = confirm("このURLは無効になる予定です。新しいURLへ移動します。\nよろしいですか？");
             if (confirmed) {
-                window.location.href = "https://newname.github.io/project/";
+                window.location.href = "https://true-nosuke.github.io/src/index.html";
             } else {
                 document.body.innerHTML = "<h1>リダイレクトをキャンセルしました。</h1>";
             }
         };
     </script>
 <title>Redirecting…</title>
-<meta http-equiv="refresh" content="0; URL=https://true-nosuke.github.io/src/index.html">
-<link rel="canonical" href="https://newname.github.io/project/">
-<body>
-Redirecting to <a href="https://true-nosuke.github.io/src/index.html">new site</a>.
-</body>
